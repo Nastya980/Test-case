@@ -1,72 +1,4 @@
-
-Task 1.
-
-1. Открыть домашнюю директорию
-   cd ~
-
-2. Определить имя папки, в которой вы находитесь
-   pwd
-
-3. Создать внутри этой папки каталог с именем test1
-   mkdir test1 
-
-4. Перейти в папку test1
-   cd test1
-
-5. Создать файл 1,2 и 3 внутри каталога test1
-   touch file1.txt file2.txt file3.txt 
-
-6. Проверить содержимое каталога test1
-   ls
-
-7. Перейти в домашнюю директорию
-   cd ~
-
-8. Создать папку test2 внутри домашней директории
-   mkdir test2
-
-9. Удалить папку test2
-   rmdir test2
-
-10. Удалить файл 2 из папки test1
-    rm ./Desktop/test1/file2.txt
-
-11. Создать папку в домашней директории test3 и добавить в нее два файла
-    mkdir test3
-    touch file1.txt file2.txt
-
-12. Удалить папку test3
-    rm -r test3 
-
-13. Создать папку test4 в домашней директории
-    mkdir test4
-
-14. Переместить файлы 1 и 3 из папки test1 в папку test4
-    cd Desktop
-    cd test1
-    mv file1.txt file2.txt ~/test4
-
-15. Добавить в файл 1 три строки со словами line
-    echo "line 1
-    line 2
-    line 3" >> file1.txt 
-
-16. Посмотреть содержимое файла 1
-    cat file1.txt
-
-17. Добавьте в файл 3 три строки со словами line
-    echo "line 1
-    line 2
-    line 3" >> file3.txt 
-
-18. Просмотрите содержимое двух файлов (1 и 3) сразу
-    cat file1.txt file.txt
-
-19. Используя один из редакторов замените все строки в файле 1
-    nano file1.txt
-
-
-Task 2.
+Task 2. Editing files, checking and killing proccesses, pinging websites
 
 1. Зайти в домашнюю директорию
    cd ~
@@ -76,6 +8,7 @@ Task 2.
 
 3. Добавить в папку test 3 три файла 4, 5 и 6, в каждом из которых должно быть по 4 строки row1, row2, row3, row4
    cd test3
+   
    echo "row 1
     row 2
     row 3" >> file4.txt

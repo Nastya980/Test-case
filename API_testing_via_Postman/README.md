@@ -8,7 +8,7 @@
  - Создано несколько юзеров, используя метод createdWithArray. [ссылка](https://www.postman.com/descent-module-technologist-76502101/workspace/my-workspace/request/23570025-391598b4-4555-49c6-b410-a2b05a99def3?ctx=documentation).
  - В теле запроса для создания питомца сделано динамические значения, которые будут автоматически генерироваться при отправке. [ссылка](https://www.postman.com/descent-module-technologist-76502101/workspace/my-workspace/request/23570025-27cdbc6d-df4b-42e2-8b39-e8152ee50542?ctx=documentation).
 
- 3. Написаны [тестовые кейсы](API_testing_via_Postman/1_test-case_API_petstore.pdf) для тестирования запросов коллекции для 4 методов из блока "store".
+ 3. Написаны [тестовые кейсы](1_test-case_API_petstore.pdf) для тестирования запросов коллекции для 4 методов из блока "store".
  
 
 4. В рамках тестирования SOAP с помощью Postman было выполнено: 
